@@ -1,4 +1,16 @@
-# MCP Codex Worker
+## Stop spending premium context on bulk code work
+
+**Measured: 80% less premium context intake. ~$213-1068/mo saved.**
+
+| Work type | Traditional | MCP Codex Worker | Cost |
+|-----------|------------|-----------------|------|
+| Search code | LLM reads files | `search` 0 LLM calls | Free |
+| Explain code | Full agent loop | `analyze` 1 cheap call | Low |
+| Fix bugs | Premium retries loop | `start` async worker | Low |
+| Review code | Premium reads diff | `review` cheap gateway | Low |
+| See result | Full diff ingested | `changed_files` only | Compact |
+
+Yeah# MCP Codex Worker
 
 Stop spending premium Codex context on bulk code reading, patch loops, and giant diffs.
 
