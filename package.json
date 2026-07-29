@@ -21,7 +21,7 @@
     "test": "npm run build && node dist/tests/core.test.js && node dist/tests/routing_contract.test.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.29.0"
+    "@modelcontextprotocol/sdk": "^1.30.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
